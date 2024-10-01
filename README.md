@@ -1,1 +1,1 @@
-## Unlocking Novelty through Multiobjective Generative Models for In-Betweening Human Motions within Batch Diversity
+## Novelty Unlocking with Multiobjective Generative Models: Batch Diversity of Human Motions
