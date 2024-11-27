@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Novelty Unlocking with Multiobjective Generative Models: Batch Diversity of Human Motions</title>
+  <title>Novelty Unlocking with Multiobjective Generative Models: Intra-Batch Diversity of Human Motions</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -42,6 +42,12 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <style>
+    .item {
+      display: flex; /**/
+      justify-content: center
+    }
+  </style>
 </head>
 <body>
 
@@ -376,12 +382,6 @@
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
           <video poster="" id="wk" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/Walk2kick/00_03.mkv"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-steve">
-          <video poster="" id="wk" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Walk2kick/03_03.mkv"
                     type="video/mp4">
           </video>
@@ -402,6 +402,12 @@
         <div class="item item-steve">
           <video poster="" id="wk" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/Walk2kick/sample12_rep02_smpl_params.npy.mkv"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-steve">
+          <video poster="" id="wk" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Walk2kick/00_03.mkv"
                     type="video/mp4">
           </video>
         </div>
